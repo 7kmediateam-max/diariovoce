@@ -1,0 +1,7 @@
+{
+  "routes": [
+    { "path": "/", "title": "Diário Você" },
+    { "path": "/privacidade", "title": "Política de Privacidade — Diário Você" },
+    { "path": "/obrigado", "title": "Cadastro recebido — Diário Você" }
+  ]
+}

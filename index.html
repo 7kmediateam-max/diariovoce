@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f4efe7" />
+    <meta name="description" content="Diário Você: as notícias do dia, do jeito que você gosta de ler. Um resumo diário por e-mail, em cinco minutos." />
+    <meta property="og:title" content="Diário Você — As notícias do dia, do seu jeito" />
+    <meta property="og:description" content="Um resumo diário por e-mail, com curadoria e leitura de cinco minutos." />
+    <meta property="og:type" content="website" />
+    <title>Diário Você — As notícias do dia, do seu jeito</title>
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="/styles.css" />
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+    <header class="site-header shell">
+      <a class="brand" href="/" aria-label="Diário Você, início">
+        <span class="brand-mark" aria-hidden="true">DV</span>
+        <span class="brand-name">Diário <em>Você</em></span>
+      </a>
+      <span class="header-note">uma leitura por dia</span>
+    </header>
+
+    <main id="conteudo">
+      <section class="hero shell" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="eyebrow-rule"></span> para quem gosta de entender</p>
+          <h1 id="hero-title">As notícias do dia, <span>do jeito que você gosta de ler</span></h1>
+          <p class="hero-subtitle">Um resumo diário por e-mail, com contexto, curadoria e o essencial para você começar o dia bem informado — sem barulho.</p>
+          <a class="text-link" href="#o-que-vem">Veja o que vem na edição <span aria-hidden="true">↓</span></a>
+        </div>
+
+        <div class="signup-wrap">
+          <div class="signup-card">
+            <div class="card-topline">
+              <span>EDIÇÃO Nº 001</span>
+              <span>DIÁRIO VOCÊ</span>
+            </div>
+            <div class="card-symbol" aria-hidden="true"><span>+</span></div>
+            <p class="card-kicker">A primeira leitura do seu dia</p>
+            <h2>Uma pausa para saber o que importa.</h2>
+            <p class="card-text">Inscreva-se para receber a próxima edição diretamente na sua caixa de entrada.</p>
+            <form id="signup-form" class="signup-form" novalidate>
+              <label for="email">Seu melhor e-mail</label>
+              <div class="input-row">
+                <input id="email" name="email" type="email" autocomplete="email" placeholder="voce@exemplo.com" required />
+                <button type="submit">Quero receber <span aria-hidden="true">↗</span></button>
+              </div>
+              <p class="form-note">Uma edição por dia. Sem spam. Cancele quando quiser.</p>
+              <p id="form-status" class="form-status" role="status" aria-live="polite"></p>
+            </form>
+          </div>
+          <div class="card-shadow" aria-hidden="true"></div>
+        </div>
+      </section>
+
+      <section id="o-que-vem" class="benefits-section">
+        <div class="shell">
+          <div class="section-heading">
+            <p class="eyebrow"><span class="eyebrow-rule"></span> dentro da edição</p>
+            <p class="section-intro">Pouco tempo, boa informação. O Diário Você cabe na sua rotina — e não o contrário.</p>
+          </div>
+          <ol class="benefits-list">
+            <li class="benefit-item">
+              <span class="benefit-number">01</span>
+              <div><h3>Resumo do dia</h3><p>O que aconteceu, explicado com clareza e sem excesso.</p></div>
+              <span class="benefit-arrow" aria-hidden="true">↗</span>
+            </li>
+            <li class="benefit-item">
+              <span class="benefit-number">02</span>
+              <div><h3>Curadoria de leituras</h3><p>Boas histórias e ideias para continuar a conversa.</p></div>
+              <span class="benefit-arrow" aria-hidden="true">↗</span>
+            </li>
+            <li class="benefit-item">
+              <span class="benefit-number">03</span>
+              <div><h3>5 minutos de leitura</h3><p>Informação suficiente para seguir o dia mais presente.</p></div>
+              <span class="benefit-arrow" aria-hidden="true">↗</span>
+            </li>
+          </ol>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="shell footer-grid">
+        <div class="footer-brand">
+          <a class="brand brand-light" href="/" aria-label="Diário Você, início">
+            <span class="brand-mark" aria-hidden="true">DV</span>
+            <span class="brand-name">Diário <em>Você</em></span>
+          </a>
+          <p>Informação para ler com calma.</p>
+        </div>
+        <div class="footer-details">
+          <p>Você recebe porque se inscreveu — cancele quando quiser pelo link em qualquer edição.</p>
+          <div class="footer-links">
+            <a href="/privacidade">Política de Privacidade <span aria-hidden="true">↗</span></a>
+            <a href="mailto:contato@diariovoce.com">contato@diariovoce.com</a>
+          </div>
+        </div>
+      </div>
+      <div class="shell footer-bottom"><span>© 2026 Diário Você</span><span>feito para a sua leitura</span></div>
+    </footer>
+  </body>
+</html>
