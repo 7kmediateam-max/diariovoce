@@ -1,6 +1,6 @@
 // Preencher com a URL /exec de um Google Apps Script Web App que grave na planilha.
 const NEWSLETTER_ENDPOINT = 'https://script.google.com/macros/s/AKfycbyJXWCAh-71OR7k_zrXQmoYnR-vqPAruMR91Eh2ZooeMjsyPW38E948gw5DsPHQrpT0GQ/exec';
-const APP_ENDPOINT = 'https://little-spark-workshop.lotusblanca-net.lovable.app/api/public/inscricao';
+const APP_ENDPOINT = 'https://little-spark-workshop.lovable.app/api/public/inscricao';
 const form = document.querySelector('#signup-form');
 const email = document.querySelector('#email');
 const status = document.querySelector('#form-status');
